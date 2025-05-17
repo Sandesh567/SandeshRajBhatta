@@ -11,7 +11,7 @@ export default function Experience() {
       <color args={["#695b5b"]} attach="background" />
       <OrbitControls makeDefault />
 
-      <primitive object={computer.scene} />
+      <primitive object={computer.scene} position-y={-1.2} />
     </>
   );
 }
