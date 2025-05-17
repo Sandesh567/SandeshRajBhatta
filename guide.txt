@@ -1,0 +1,11 @@
+//importing the CDN of laptop from this link
+https://market.pmnd.rs/model/macbook
+
+//using GLTF paste the link
+
+//display
+use primitive to setup and display the laptop.
+
+//using drei environmental helper for lighting
+      <Environment preset="city" />
+add anywhere in the scene with city as the preset attribute
