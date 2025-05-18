@@ -14,3 +14,9 @@ add anywhere in the scene with city as the preset attribute
 <Float>
         <primitive object={computer.scene} position-y={-1.2} />
       </Float>
+reducing the float using rotationIntensity
+
+//limiting the rotation
+using drei PresentationControls lets you manipulate the model instead of the camera
+we can rotate that model,and,when, we release it. it goes back to its initial
+position
