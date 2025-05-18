@@ -20,3 +20,9 @@ reducing the float using rotationIntensity
 using drei PresentationControls lets you manipulate the model instead of the camera
 we can rotate that model,and,when, we release it. it goes back to its initial
 position
+
+  rotation={[0.13, 0.1, 0]} //rotation of laptop
+        polar={[-0.4, 0.2]} //vertical limitation
+        azimuth={[-1, 0.75]} //horizontal limitation
+        config={{ mass: 2, tension: 400 }} //elasticity of drag and drop
+        snap={{ mass: 4, tension: 400 }} // snap back to original position
