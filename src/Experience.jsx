@@ -1,4 +1,5 @@
 import {
+  ContactShadows,
   PresentationControls,
   Environment,
   useGLTF,
@@ -14,7 +15,6 @@ export default function Experience() {
       <Environment preset="city" />
 
       <color args={["#695b5b"]} attach="background" />
-
       <PresentationControls
         global
         rotation={[0.13, 0.1, 0]}
@@ -27,6 +27,7 @@ export default function Experience() {
           <primitive object={computer.scene} position-y={-1.2} />
         </Float>
       </PresentationControls>
+      <ContactShadows position-y={-1.4} opacity={0.4} scale={5} blur={2.4} />
     </>
   );
 }

@@ -26,3 +26,7 @@ position
         azimuth={[-1, 0.75]} //horizontal limitation
         config={{ mass: 2, tension: 400 }} //elasticity of drag and drop
         snap={{ mass: 4, tension: 400 }} // snap back to original position
+
+
+//adding shadows
+      <ContactShadows position-y={-1.4} opacity={0.4} scale={5} blur={2.4} />
