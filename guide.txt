@@ -1,19 +1,19 @@
-//importing the CDN of laptop from this link
+//importing the CDN of laptop from this link//
 https://market.pmnd.rs/model/macbook
 
-//using GLTF paste the link
+//using GLTF paste the link//
 
-//display
+//display//
 use primitive to setup and display the laptop.
 
-//using drei environmental helper for lighting
+//using drei environmental helper for lighting//
       <Environment preset="city" />
 add anywhere in the scene with city as the preset attribute
 
-//floating the laptop
+//floating the laptop//
 <Float>
         <primitive object={computer.scene} position-y={-1.2} />
-      </Float>
+</Float>
 reducing the float using rotationIntensity
 
 //limiting the rotation
@@ -21,7 +21,7 @@ using drei PresentationControls lets you manipulate the model instead of the cam
 we can rotate that model,and,when, we release it. it goes back to its initial
 position
 
-  rotation={[0.13, 0.1, 0]} //rotation of laptop
+        rotation={[0.13, 0.1, 0]} //rotation of laptop
         polar={[-0.4, 0.2]} //vertical limitation
         azimuth={[-1, 0.75]} //horizontal limitation
         config={{ mass: 2, tension: 400 }} //elasticity of drag and drop

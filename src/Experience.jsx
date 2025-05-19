@@ -1,4 +1,5 @@
 import {
+  Html,
   ContactShadows,
   PresentationControls,
   Environment,
@@ -24,7 +25,11 @@ export default function Experience() {
         snap={{ mass: 4, tension: 400 }}
       >
         <Float rotationIntensity={0.4}>
-          <primitive object={computer.scene} position-y={-1.2} />
+          <primitive object={computer.scene} position-y={-1.2}>
+            <Html>
+              <iframe src="https://my-personal-website-git-main-sandeshrajbhattas-projects.vercel.app/" />
+            </Html>
+          </primitive>
         </Float>
       </PresentationControls>
       <ContactShadows position-y={-1.4} opacity={0.4} scale={5} blur={2.4} />
