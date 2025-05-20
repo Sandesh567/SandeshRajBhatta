@@ -30,3 +30,16 @@ position
 
 //adding shadows
       <ContactShadows position-y={-1.4} opacity={0.4} scale={5} blur={2.4} />
+
+//adding the html site using 
+<Html
+              transform
+              wrapperClass="htmlScreen"
+              distanceFactor={1.17}
+              position={[0, 1.56, -1.4]}
+              rotation-x={[-0.256]}
+>
+
+<iframe>{site}</iframe>
+
+</Html>
