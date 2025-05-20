@@ -1,4 +1,5 @@
 import {
+  Text,
   Html,
   ContactShadows,
   PresentationControls,
@@ -6,7 +7,6 @@ import {
   useGLTF,
   Float,
 } from "@react-three/drei";
-import { RectAreaLight } from "three";
 
 export default function Experience() {
   const computer = useGLTF(
@@ -45,6 +45,16 @@ export default function Experience() {
               <iframe src="https://my-personal-website-git-main-sandeshrajbhattas-projects.vercel.app/" />
             </Html>
           </primitive>
+          <Text
+            font="./bangers-v20-latin-regular.woff"
+            fontSize={0.5}
+            position={[2, 0.5, 0]}
+            rotation-y={-1.25}
+            maxWidth={2}
+            textAlign="center"
+          >
+            Sandesh Raj Bhatta
+          </Text>
         </Float>
       </PresentationControls>
       <ContactShadows position-y={-1.4} opacity={0.4} scale={5} blur={2.4} />
