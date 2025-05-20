@@ -16,7 +16,7 @@ export default function Experience() {
     <>
       <Environment preset="city" />
 
-      <color args={["#695b5b"]} attach="background" />
+      <color args={["#85193C"]} attach="background" />
       <PresentationControls
         global
         rotation={[0.13, 0.1, 0]}
