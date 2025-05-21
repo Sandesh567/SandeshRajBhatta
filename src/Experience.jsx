@@ -12,6 +12,7 @@ export default function Experience() {
   const computer = useGLTF(
     "https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf"
   );
+
   return (
     <>
       <Environment preset="city" />
@@ -58,6 +59,10 @@ export default function Experience() {
         </Float>
       </PresentationControls>
       <ContactShadows position-y={-1.4} opacity={0.4} scale={5} blur={2.4} />
+      <mesh position-x={4}>
+        <torusKnotGeometry />
+        <meshStandardMaterial color="red" wireframe={true} />
+      </mesh>
     </>
   );
 }
