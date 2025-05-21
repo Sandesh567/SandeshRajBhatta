@@ -42,7 +42,7 @@ export default function Experience() {
               position={[0, 1.56, -1.4]}
               rotation-x={[-0.256]}
             >
-              <iframe src="https://my-personal-website-git-main-sandeshrajbhattas-projects.vercel.app/" />
+              <iframe src="https://my-personal-website-rust-kappa.vercel.app/" />
             </Html>
           </primitive>
           <Text
